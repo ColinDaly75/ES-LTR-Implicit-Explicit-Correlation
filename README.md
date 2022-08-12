@@ -1,9 +1,11 @@
 # ES-LTR-Implicit-Explicit-Correlation
+## Experiments
+This project analyses the relationship between explicit & implicit ranking and how this impacts the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation.
 
-## PART 1:  Correlation
+### Experiment 1:  Correlation
 Correlation of Implicit feedback (clickthrough data) versus Explicit Human Relevance Judgements for Learning to Rank (LTR)
 
-This project analyses the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation.
+
 
 We investigate the correlation between a) human relevance judgements and b) clickthrough rate (CTR) in a learning to rank dataset.
 
@@ -19,7 +21,7 @@ $$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
 
 We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) and calculate a Spearman correlation coefficient.
 
-## PART 2:  Comparison of Ranking Performance using alternative ground truths
+### Experiment 2:  Comparison of Ranking Performance using alternative ground truths
 Once the correlation is established, we use the CTR values in place of human relevance judgements are recreate our learning to rank model.   This involves subsitiuting the CTR values into the first column of the LTR dataset.   The nDCG values are calculated using 
 - human relevance judgements and 
 - clickthrough rate.
