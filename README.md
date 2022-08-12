@@ -8,6 +8,7 @@ We investigate the correlation between a) human relevance judgements and b) clic
 The click-through rate (CTR) is generally defined as the percentage of the number of clicks to the number of impressions.  For the purposes of this study, we calculate the CTR for document, d, and query, q, as follows: - 
 
 $$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
+
 where impressions is the sum of clicks for all documents returned for q.  A high CTR is a good indication that users find the document within the listings as helpful and relevant for the given query.
 
 We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) that includes both kinds of feedback and use it to calculate a Spearman correlation coefficient.
