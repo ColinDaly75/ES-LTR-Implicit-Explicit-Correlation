@@ -1,14 +1,14 @@
 # ES-LTR-Implicit-Explicit-Correlation
-Correlation of Implicit feedback (click-through data) versus Explicit Human Relevance Judgements for Learning to Rank (LTR)
 
-This script correlates the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation using both relevance judgements and
-click-through data (CTR). 
+## PART 1:  Correlation
+Correlation of Implicit feedback (clickthrough data) versus Explicit Human Relevance Judgements for Learning to Rank (LTR)
+
+This project analyses the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation.
+
+We investigate the correlation between a) human relevance judgements and b) clickthrough rate (CTR) in a learning to rank dataset.
 
 
-The click-through rate (CTR) is generally defined as the percentage of the number of clicks to the number of impressions~\cite{Chapelle2011}.  
-
-For the purposes of this study, we calculate the CTR for document, d, and query, q, as follows: -
- 
+The click-through rate (CTR) is generally defined as the percentage of the number of clicks to the number of impressions.  For the purposes of this study, we calculate the CTR for document, d, and query, q, as follows: -
  
 
 $$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
@@ -19,12 +19,16 @@ $$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
 
 We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) and calculate a Spearman correlation coefficient.
 
+## PART 2:  Comparison of Ranking Performance using alternative ground truths
+Once the correlation is established, we use the CTR values in place of human relevance judgements are recreate our learning to rank model.   This involves subsitiuting the CTR values into the first column of the LTR dataset.   The nDCG values are calculated using 
+- human relevance judgements and 
+- clickthrough rate.
 
-The attached dataset and code were used to perform correlation and ranking performance tests.
+
 
 The LTR dataset is formatted as follows: -
 ![LETOR_format_diagram-with-clickThru](https://user-images.githubusercontent.com/51714656/179519935-eb7329c6-e9cb-4e69-b6a0-a71eef16ab03.png)
 
-To reproduce, simply download the code (python ipynb file) and dataset (txt file).  It was compliled using python 3 and requires the installation (pip3) of datapane,jinja2 and scipy packages.
+The attached dataset and code were used to perform correlation and ranking performance tests.  To reproduce, simply download the code (python ipynb file) and dataset (txt file).  It was compliled using python 3 and requires the installation (pip3) of datapane,jinja2 and scipy packages.
 
 This research was usertaken by Colin Daly and Dr. Yvette Graham and has been partially funded by the ADAPT Centre and Trinity College Dublin
