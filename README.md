@@ -18,7 +18,7 @@ For the purposes of this study, we calculate the CTR as a ratio showing how ofte
  <img src="https://render.githubusercontent.com/render/math?math={P(A|B)=\frac{\P(B|A)\P(A)}{\P(B|A)\P(A)\%2BP(B|\neg A)\P(\neg A)}}##gh-light-mode-only">
  
 
-$$ CTR_{(q,d)} = {-b \pm \sqrt{b^2-4ac} \impressions 2a} $$
+$$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
  
  
  \[ CTR_{(q,d)} = \frac{ clicks_{(q,d)}}{impressions_{(q,d)}} \]
