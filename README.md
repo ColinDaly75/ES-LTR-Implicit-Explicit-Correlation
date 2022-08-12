@@ -11,7 +11,7 @@ For the purposes of this study, we calculate the CTR as a ratio showing how ofte
  
  <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
  
- <img src="https://render.githubusercontent.com/render/math?math=CTR_{(q,d)} = \frac{ clicks_{(q,d)}}{impressions_{(q,d)}}>
+ <img src="https://render.githubusercontent.com/render/math?math=\[ CTR_{(q,d)} = \frac{ clicks_{(q,d)}}{impressions_{(q,d)}} \]>
  
  \[ CTR_{(q,d)} = \frac{ clicks_{(q,d)}}{impressions_{(q,d)}} \]
  
