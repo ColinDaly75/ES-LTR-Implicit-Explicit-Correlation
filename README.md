@@ -9,16 +9,17 @@ The click-through rate (CTR) is generally defined as the percentage of the numbe
 
 $$ CTR_{(q,d)} = {\frac{ clicks_{(q,d)}}{impressions_{(q,d)}}} $$
 
-where impressions is the sum of clicks for all documents returned for q.  A high CTR is a good indication that users find the document within the listings as helpful and relevant for the given query.
+where impressions is the sum of clicks for all documents returned for q.  A high CTR indicates that users find the document within the listings as helpful and relevant for the given query.  For example, a document with a CTR value of 0.26 means that 26% of the end-users selected that document for the given query.
 
-We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) that includes both kinds of feedback and use it to calculate a Spearman correlation coefficient.
+The metric used to calculate the correlation is the Spearman correlation coefficient. 
 
 ### Experiment 2:  Comparison of Ranking Performance using alternative ground truths
 We use the CTR values in place of human relevance judgements are recreate our learning to rank model.   This involves subsitiuting the CTR values into the first column of the LTR dataset.   The nDCG values are calculated using 
 - human relevance judgements and 
 - clickthrough rate.
 
-The LTR dataset is formatted as follows: -
+# Dataset
+We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) that includes both kinds of feedback as well as a number of features used for learning to rank.  The LTR dataset is formatted as follows: -
 ![LETOR_format_diagram-with-clickthroughrate](https://user-images.githubusercontent.com/51714656/184387570-87e33de2-a985-4d8f-8a71-4cd7f43bb87a.png)
 
 # Procedure
