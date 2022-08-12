@@ -2,7 +2,8 @@
 Correlation of Implicit feedback (click-through data) versus Explicit Human Relevance Judgements for Learning to Rank (LTR)
 
 This script correlates the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation using both relevance judgements and
-click-through data. We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) and calculate a correlation coefficient of ρ = 0.765. Additionally, the nDCG@10 ranking performance using relevance judgements is just 2.47% higher than when click-though data is used. 
+click-through data. We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) and calculate a Spearman correlation coefficient.
+
 
 The attached dataset and code were used to perform correlation and ranking performance tests.
 
