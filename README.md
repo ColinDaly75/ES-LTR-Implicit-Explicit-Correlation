@@ -30,9 +30,9 @@ We generate and publish a small manually annotated LTR dataset (ENTRP-SRCH.txt) 
 
 # How to Run
 The attached dataset and code were used to perform correlation and ranking performance tests.  To reproduce, simply download the code (python ipynb files) and LTR dataset (txt file).  It was compliled using python 3 and requires the installation (pip3) of datapane,jinja2 and scipy packages.
-The two scripts can be run independently, but the logicall order is 
+The two scripts can be run independently, but the logical order is 
 1. ES-LTR-explicit-implicit-correlation.ipynb
-2. ES-LTR-ranking-performance.ipynb
+2. ES-LTR-ranking-performance.ipynb  (simple change the judgements variarble to 'HUMAN' or 'CTR')
 
 # Acknowledgements
 This research was usertaken by Colin Daly and Dr. Yvette Graham and has been partially funded by the ADAPT Centre and Trinity College Dublin
