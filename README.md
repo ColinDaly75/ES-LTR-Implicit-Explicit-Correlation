@@ -5,10 +5,10 @@ Contact: dalyc24@tcd.ie
 
 -----------------------------------------------------------------------------------
 
-## Experiments
+## Analysis & Experiment
 This project analyses the relationship between explicit & implicit ranking and how this impacts the ranking performance of a ’real world’ Enterprise Search (ES) service of a large organisation.
 
-### Experiment 1:  Correlation
+###  Correlation Analysis
 We investigate the correlation between a) human relevance judgements and b) clickthrough rate (CTR) in a learning to rank dataset.
 
 The click-through rate (CTR) is generally defined as the percentage of the number of clicks to the number of impressions.  For the purposes of this study, we calculate the CTR for document, d, and query, q, as follows: - 
@@ -19,7 +19,7 @@ where impressions is the sum of clicks for all documents returned for q.  A high
 
 The metric used to calculate the correlation is the Spearman correlation coefficient. 
 
-### Experiment 2:  Comparison of Ranking Performance using alternative ground truths
+### Experiment :  Comparison of Ranking Performance using alternative ground truths
 We use the CTR values in place of human relevance judgements are recreate our learning to rank model.   This involves subsitiuting the CTR values into the first column of the LTR dataset.   The nDCG values are calculated using 
 - human relevance judgements and 
 - clickthrough rate.
