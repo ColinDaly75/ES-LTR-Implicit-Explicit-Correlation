@@ -35,5 +35,5 @@ The two scripts can be run independently, but the logical order is
 2. ES-LTR-ranking-performance.ipynb  (simply change the judgements variable to 'HUMAN' or 'CTR')
 
 # Acknowledgements
-Temporarily obscured pending double-blind jounral submission.
+Temporarily obscured pending double-blind journal submission.
 <!--This research was usertaken by Colin Daly and Dr. Yvette Graham and has been partially funded by the ADAPT Centre and Trinity College Dublin -->
