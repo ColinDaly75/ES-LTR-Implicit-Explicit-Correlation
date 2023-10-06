@@ -54,7 +54,7 @@ The two scripts can be run independently, but the logical order is
 - [numpy](https://numpy.org)
 - [sklearn](https://scikit-learn.org)
 - [datapane](https://datapane.com) >= 0.16
-
+- [jinja](jinja.palletsprojects.com) = 3.1
   
 
 
