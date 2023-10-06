@@ -53,7 +53,7 @@ The two scripts can be run independently, but the logical order is
 - [Python](https://www.python.org) >= 3.5
 - [numpy](https://numpy.org)
 - [sklearn](https://scikit-learn.org)
-- [datapane](https://datapane.com). >= 0.16
+- [datapane](https://datapane.com) >= 0.16
 
   
 
