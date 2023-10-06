@@ -34,5 +34,28 @@ The two scripts can be run independently, but the logical order is
 1. ES-LTR-explicit-implicit-correlation.ipynb
 2. ES-LTR-ranking-performance.ipynb  (simply change the judgements variable to 'HUMAN' or 'CTR')
 
+
+
+# Citation
+```
+@inproceedings{qin2020user,
+	title={Enterprise Search: Learning to Rank with Click-Through Data as a Surrogate for Human Relevance Judgements.},
+	author={Daly, C. and Hederman, L.},
+	booktitle={KDIR 2023 : 15th International Conference on Knowledge Discovery and Information Retrieval},
+	year={202}3,
+	organization={IEEE}
+}
+```
+
+
+# Dependencies
+- [Tensorflow](https://www.tensorflow.org) >= 1.4
+- [Python](https://www.python.org) >= 3.5
+- [numpy](https://numpy.org)
+- [sklearn](https://scikit-learn.org)
+
+  
+
+
 # Acknowledgements
 This research was undertaken by Colin Daly and Prof. Lucy Hederman and has been partially funded by the ADAPT Centre and Trinity College Dublin
