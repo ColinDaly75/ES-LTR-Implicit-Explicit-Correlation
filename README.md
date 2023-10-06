@@ -42,7 +42,7 @@ The two scripts can be run independently, but the logical order is
 	title={Enterprise Search: Learning to Rank with Click-Through Data as a Surrogate for Human Relevance Judgements.},
 	author={Daly, C. and Hederman, L.},
 	booktitle={KDIR 2023 : 15th International Conference on Knowledge Discovery and Information Retrieval},
-	year={202}3,
+	year={2023},
 	organization={IEEE}
 }
 ```
